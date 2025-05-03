@@ -1,16 +1,46 @@
-🧹 Data Analysis Series: Data Cleaning using Numpy & Pandas 
-Welcome to the next chapter of my Data Analysis Series, where I dive into one of the most crucial (yet often overlooked) aspects of any data-driven project — data cleaning.
+# 🧹 Data Cleaning with NumPy & Pandas
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
+![Pandas](https://img.shields.io/badge/Pandas-Data--Cleaning-green.svg)
+![Status](https://img.shields.io/badge/Project-In--Progress-yellow)
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
-In this notebook, I’ve focused on using the power of NumPy and Pandas to tackle real-world data issues that analysts and data scientists face every day. Whether you're a beginner trying to make sense of messy datasets or someone brushing up on your skills, this part is designed to be practical, clear, and hands-on.
+Welcome to the next part of my **Data Analysis Series**, where we tackle one of the most essential and foundational skills in the data science world — **cleaning and preparing your data**. This notebook is a hands-on walkthrough using **NumPy** and **Pandas** to handle messy data like a pro.
 
-🔍 Topics Covered:
-Detecting Missing or Incomplete Data
-Learn how to identify NaNs, empty values, and inconsistencies in your dataset.
+## 🚀 Why Data Cleaning?
+Before any kind of meaningful analysis, visualization, or machine learning can begin, your data needs to be clean, consistent, and trustworthy. Think of this as the "brushing teeth" phase of your data science workflow — not always glamorous, but absolutely essential.
 
-Handling Missing Data with Pandas
-Explore different strategies for dealing with missing values — from dropping them to smart imputation techniques.
+---
 
-Cleaning Non-Null Values for Accuracy
-Sometimes values look fine but aren't. We cover how to spot and fix misleading "not null" entries that can silently distort analysis.
+## 📚 What You'll Learn
 
-This section sets the foundation for trustworthy analysis by ensuring your data is clean, consistent, and ready for exploration or modeling. Every data story begins with good cleaning — and this is where it starts. 🌱
+### 1. 🔍 Identifying Missing Data
+- How to detect missing or null values using both NumPy and Pandas.
+- Understanding different types of "missing" (NaNs, empty strings, and more).
+
+### 2. 🧯 Handling Missing Values with Pandas
+- Removing vs imputing: When to drop values and when to fill them.
+- Using `.fillna()`, `.dropna()`, and other powerful pandas tools.
+
+### 3. ✅ Cleaning Non-Null (But Still Wrong) Data
+- Finding hidden inconsistencies: wrong data types, placeholders, or malformed entries.
+- Techniques to clean and standardize seemingly "valid" entries.
+
+---
+
+## 🛠️ Tools Used
+
+- Python 3.9+
+- [NumPy](https://numpy.org/)
+- [Pandas](https://pandas.pydata.org/)
+- Jupyter Notebook
+
+---
+
+## 📂 Project Structure
+
+```bash
+data-cleaning/
+│
+├── data_cleaning.ipynb        # Main notebook
+├── sample_data.csv            # (Optional) Demo dataset used in the notebook
+└── README.md                  # Project overview
