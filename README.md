@@ -3,7 +3,7 @@
 Welcome to the next part of my **Data Analysis Series**, where we tackle one of the most essential and foundational skills in the data science world — **cleaning and preparing your data**. This notebook is a hands-on walkthrough using **NumPy** and **Pandas** to handle messy data like a pro.
 
 ## 🚀 Why Data Cleaning?
-Before any kind of meaningful analysis, visualization, or machine learning can begin, your data needs to be clean, consistent, and trustworthy. Think of this as the "brushing teeth" phase of your data science workflow — not always glamorous, but absolutely essential.
+Before any kind of meaningful analysis, visualization, or machine learning can begin, your data needs to be clean, consistent, and trustworthy. Think of this as the "brushing teeth" phase of your data science workflow not always glamorous, but absolutely essential.
 
 ---
 
