@@ -1,8 +1,4 @@
-# 🧹 Data Cleaning with NumPy & Pandas
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
-![Pandas](https://img.shields.io/badge/Pandas-Data--Cleaning-green.svg)
-![Status](https://img.shields.io/badge/Project-In--Progress-yellow)
-![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+# 🧹 Data Analysis Series: Data Cleaning with NumPy & Pandas
 
 Welcome to the next part of my **Data Analysis Series**, where we tackle one of the most essential and foundational skills in the data science world — **cleaning and preparing your data**. This notebook is a hands-on walkthrough using **NumPy** and **Pandas** to handle messy data like a pro.
 
@@ -26,21 +22,3 @@ Before any kind of meaningful analysis, visualization, or machine learning can b
 - Techniques to clean and standardize seemingly "valid" entries.
 
 ---
-
-## 🛠️ Tools Used
-
-- Python 3.9+
-- [NumPy](https://numpy.org/)
-- [Pandas](https://pandas.pydata.org/)
-- Jupyter Notebook
-
----
-
-## 📂 Project Structure
-
-```bash
-data-cleaning/
-│
-├── data_cleaning.ipynb        # Main notebook
-├── sample_data.csv            # (Optional) Demo dataset used in the notebook
-└── README.md                  # Project overview
